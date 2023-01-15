@@ -1,0 +1,133 @@
+:root {
+  --main-color: #4d5ae5;
+  --black-color: black;
+  --white-color: white;
+  --btn-bg-color: #f4f4fd;
+  --footer-color: #e7e9fc;
+  --navy-color: #2e2f42;
+  --main-title-color: #ffffff;
+  --slate-color: #434455;
+}
+
+body {
+  font-family: "roboto", "sans-serif";
+  color: var(--main-color);
+}
+.link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.link:hover {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.logo-header {
+  color: var(--black-color);
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 800;
+}
+
+.service-button {
+  color: var(--main-title-color);
+  background-color: var(--main-color);
+  line-height: 1.18;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.filter-button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.04em;
+  color: var(--main-title-color);
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+footer {
+  background-color: var(--navy-color);
+}
+
+.footer-logo {
+  color: var(--white-color);
+  font-size: 18px;
+  line-height: 1.16;
+  font-weight: 800;
+}
+
+.main-section {
+  background-color: var(--navy-color);
+}
+
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--main-title-color);
+  font-weight: 600;
+}
+
+.benefits-title {
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-color);
+  font-weight: 600;
+}
+
+.benefits-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--slate-color);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--navy-color);
+  font-weight: 600;
+}
+
+.name-team-title {
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-color);
+  font-weight: 600;
+}
+
+.image-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--slate-color);
+}
+
+.image-title {
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-color);
+  font-weight: 600;
+}
+
+.text-footer {
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--footer-color);
+}
