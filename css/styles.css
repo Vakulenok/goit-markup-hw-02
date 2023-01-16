@@ -13,6 +13,11 @@ body {
   font-family: "roboto", "sans-serif";
   color: var(--main-color);
 }
+
+ul {
+    list-style-type: none;
+}
+
 .link {
   font-weight: 700;
   font-size: 16px;
@@ -46,15 +51,10 @@ body {
 }
 
 .service-button {
-  color: var(--main-title-color);
-  background-color: var(--main-color);
-  line-height: 1.18;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  cursor: pointer;
+/* будут додані властивості відмінні від фільтер баттон*/
 }
 
-.filter-button {
+.button {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.18;
@@ -62,6 +62,10 @@ body {
   color: var(--main-title-color);
   background-color: var(--main-color);
   cursor: pointer;
+}
+
+.filter-button {
+    /* будут додані властивості відмінні від сервіс баттон*/
 }
 
 footer {
